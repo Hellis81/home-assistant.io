@@ -75,6 +75,9 @@ If you have an error with your credentials you can delete them in the [Applicati
 
 You can use the service `google_sheets.append_sheet` to add a row of data to the Sheets document created at setup.
 
+**Note**:
+The service call takes a few seconds to complete, make sure your automation is in queued mode to not miss a trigger and write to the sheet.
+
 {% details "Create Event Service details" %}
 
 | Service data attribute | Optional | Description | Example |
